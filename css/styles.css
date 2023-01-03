@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: url("/images/blue-concrete-wall-textures-background.jpg");
+}
+.content {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  color: #64766a;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #9ab8c3;
+}
+.product {
+  max-width: 800px;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #b08dac;
+  font-size: 1.05rem;
+}
