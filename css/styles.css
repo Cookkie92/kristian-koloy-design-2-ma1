@@ -35,9 +35,17 @@ nav a:hover {
   text-transform: uppercase;
 }
 .nav-search input {
-  height: 25px;
+  margin: 5px;
+  padding: 15px;
   width: 200px;
+  border-color: white;
+  border-bottom-style: groove;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  background-color: rgb(208, 209, 209, 0.02);
 }
+
 /*Text and logo*/
 .logo {
   margin-top: 30px;
@@ -78,7 +86,7 @@ footer {
   justify-content: space-around;
   color: #1e2749;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-weight: bold;
 }
 /*Top products*/
@@ -87,7 +95,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: white;
-  border: 20px solid #1e2749;
+  border: 5px solid #1e2749;
   margin: 0 auto;
   text-align: center;
   margin-left: 40px;
@@ -118,7 +126,7 @@ footer {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .product {
   max-width: 800px;
@@ -152,6 +160,7 @@ footer {
   font-size: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  padding: 30px;
 }
 
 /*buttons*/
@@ -164,4 +173,19 @@ footer {
   font-size: 1.05rem;
   display: inline-block;
   font-weight: bold;
+}
+.product-btn:hover {
+  background-color: #f49e4c;
+}
+.nav-search button {
+  padding: 10px;
+  background-color: #1e2749;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-search button:hover {
+  background-color: #f49e4c;
 }
