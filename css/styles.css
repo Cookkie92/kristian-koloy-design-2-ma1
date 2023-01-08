@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: url("/images/black-smooth-wooden-textured-background.jpg");
+  background: url("/images/5630974.jpg");
+  font-family: sans-serif;
 }
 .content {
   margin: 0 auto;
@@ -16,11 +17,17 @@ body {
   vertical-align: middle;
   line-height: 300px;
   font-size: 40px;
-  color: #813772;
 }
-h1 {
+h1,
+h4,
+h3 {
   margin: 0;
+  color: #f49e4c;
 }
+p {
+  color: #1e2749;
+}
+
 .logo {
   margin-top: 30px;
 }
@@ -28,6 +35,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 10px solid #1e2749;
+  background-color: white;
 }
 nav ul {
   display: flex;
@@ -38,7 +47,7 @@ nav li {
   list-style: none;
 }
 nav a {
-  color: #813772;
+  color: #1e2749;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -51,9 +60,10 @@ nav a {
   margin: auto;
   text-decoration: none;
   display: inline-block;
-  background-color: #010101;
+  background-color: white;
   font-size: 1.05rem;
   border-radius: 10px;
+  border: 2px solid #1e2749;
 }
 .product img {
   border-top-left-radius: 10px;
@@ -64,12 +74,10 @@ nav a {
   margin-top: 0;
   font-size: 25px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 .product p {
   font-size: 20px;
   letter-spacing: 2px;
-  color: white;
 }
 
 .product-header {
@@ -77,10 +85,9 @@ nav a {
   font-size: 20px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #813772;
 }
 .product-btn {
-  background-color: #813772;
+  background-color: #1e2749;
   padding: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -96,16 +103,40 @@ a {
 footer {
   display: flex;
   justify-content: space-around;
-  color: #813772;
+  color: #1e2749;
   padding: 15px;
   margin-top: 20px;
 }
-.front-page-product {
+
+.top-container {
   display: flex;
-}
-.front-page-product img {
-  width: auto;
-  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 50px solid #1e2749;
   margin: 0 auto;
-  object-fit: cover;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.top-container img {
+  max-width: 100%;
+}
+.top-image {
+  flex-basis: 50%;
+}
+.top-text h4 {
+  font-size: 40px;
+}
+.top-text p {
+  font-size: 20px;
+}
+.heading-text {
+  text-align: center;
+}
+.nav-search input {
+  height: 25px;
+  width: 200px;
 }
