@@ -222,6 +222,12 @@ footer {
 #image2 {
   background: url("/images/lightsedit.jpg");
 }
+#image3 {
+  background: url("/images/manuiqinnartedit.jpg");
+}
+#image4 {
+  background: url("/images/lightsedit.jpg");
+}
 .card-btn {
   height: 40px;
   width: 300px;
