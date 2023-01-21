@@ -216,6 +216,12 @@ footer {
   border: 2px solid #1e2749;
   position: relative;
 }
+#image1 {
+  background: url("/images/Bluevaseedit1.jpg");
+}
+#image2 {
+  background: url("/images/lightsedit.jpg");
+}
 .card-btn {
   height: 40px;
   width: 300px;
