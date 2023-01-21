@@ -28,7 +28,7 @@ nav a {
   font-size: 20px;
 }
 nav a:hover {
-  color: #f49e4c;
+  color: #9d520d;
   letter-spacing: 4px;
 }
 .current {
@@ -72,7 +72,7 @@ h1,
 h4,
 h3 {
   margin: 0;
-  color: #f49e4c;
+  color: #9d520d;
 }
 p {
   color: #1e2749;
@@ -175,7 +175,7 @@ footer {
   font-weight: bold;
 }
 .product-btn:hover {
-  background-color: #f49e4c;
+  background-color: #9d520d;
 }
 .nav-search button {
   padding: 10px;
@@ -187,7 +187,7 @@ footer {
   cursor: pointer;
 }
 .nav-search button:hover {
-  background-color: #f49e4c;
+  background-color: #9d520d;
 }
 /*Product Page*/
 .product-banner {
@@ -212,18 +212,29 @@ footer {
   height: 400px;
   margin: auto;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 2px solid #1e2749;
   position: relative;
 }
 .card-btn {
   height: 40px;
   width: 300px;
-  background-color: black;
+  background-color: #1e2749;
+  font-size: 20px;
+  text-transform: uppercase;
   color: white;
   position: absolute;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.card-btn:hover {
+  background-color: #9d520d;
+}
+.product-card h3 {
+  color: rgb(253, 255, 255);
+  font-size: 30px;
+  background-color: #1e2749;
+  filter: opacity(0.8);
 }
