@@ -26,6 +26,7 @@ nav a {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 20px;
+  transition: all 0.2s ease-in-out;
 }
 nav a:hover {
   color: #9d520d;
@@ -193,6 +194,7 @@ footer {
   font-size: 1.05rem;
   display: inline-block;
   font-weight: bold;
+  transition: all 0.2s ease-in-out;
 }
 .product-btn:hover {
   background-color: #9d520d;
@@ -205,6 +207,7 @@ footer {
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 .nav-search button:hover {
   background-color: #9d520d;
@@ -259,6 +262,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
 }
 .card-btn:hover {
   background-color: #9d520d;
@@ -287,6 +291,7 @@ footer {
   margin: 5px;
   border: 2px solid black;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
 }
 .hover:hover {
   background-color: #1e2749;
