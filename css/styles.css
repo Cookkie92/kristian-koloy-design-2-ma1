@@ -178,9 +178,11 @@ footer {
   border-radius: 8px;
   font-size: 30px;
   font-family: "Lobster", cursive;
+  transition: all 0.2s ease-in-out;
 }
 .CTA-btn:hover {
   background-color: blue;
+  transform: scale(1.1);
 }
 .product-btn {
   background-color: #1e2749;
