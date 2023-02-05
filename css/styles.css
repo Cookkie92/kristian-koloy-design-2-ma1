@@ -2,7 +2,6 @@
 body {
   margin: 0;
   background: url("/images/5630974.jpg");
-  font-family: sans-serif;
 }
 /*Nav*/
 nav {
@@ -27,6 +26,7 @@ nav a {
   font-weight: bold;
   font-size: 20px;
   transition: all 0.2s ease-in-out;
+  font-family: "Lora", serif;
 }
 nav a:hover {
   color: #9d520d;
@@ -74,9 +74,11 @@ h4,
 h3 {
   margin: 0;
   color: #9d520d;
+  font-family: "Lora", serif;
 }
 p {
   color: #1e2749;
+  font-family: "Merriweather", serif;
 }
 a {
   text-decoration: none;
